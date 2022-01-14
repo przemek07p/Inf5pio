@@ -16,13 +16,10 @@ namespace database.entities
         public string Password { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
+        public ICollection<Access> Accesses { get; set; }
 
         [ForeignKey("Company")]
         public int CompanyId { get; set; }
         public Company Company { get; set; }
-
-        [ForeignKey("Access")]
-        public int AccessId { get; set; }
-        public Access Access { get; set; }
     }
 }
