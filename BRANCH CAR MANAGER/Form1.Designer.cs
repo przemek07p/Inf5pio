@@ -33,9 +33,10 @@ namespace BRANCH_CAR_MANAGER
             // 
             // BRANCH
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 510);
+            this.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Name = "BRANCH";
             this.Text = "BRANCH CAR MANAGER";
             this.Load += new System.EventHandler(this.BRANCH_CAR_MANAGER_Load);
