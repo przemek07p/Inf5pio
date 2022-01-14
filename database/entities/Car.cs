@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
@@ -9,6 +10,7 @@ namespace database.entities
 {
     public class Car : IVehicleBase
     {
+        [Key]
         public int VehicleId { get; set; }
         public string RegistrationNumber { get; set; }
         public string Brand { get; set; }
