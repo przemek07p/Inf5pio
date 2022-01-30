@@ -9,6 +9,11 @@ namespace database.repositories
 {
     public interface IAdminRepository : IRepository<Admin>, IDisposable
     {
-
+        Admin GetById(int id);
+        IEnumerable<Admin> GetAll();
+        void Add(Admin entity);
+        void Update(Admin entity);
+        void Delete(int id);
+        void Save();
     }
 }

@@ -9,5 +9,11 @@ namespace database.repositories
 {
     public interface ICompanyRepository : IRepository<Company>, IDisposable
     {
+        Company GetById(int id);
+        IEnumerable<Company> GetAll();
+        void Add(Company entity);
+        void Update(Company entity);
+        void Delete(int id);
+        void Save();
     }
 }
