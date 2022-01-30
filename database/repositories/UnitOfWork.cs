@@ -92,7 +92,7 @@ namespace database.repositories
                     this.userRepository = new UserRepository(context);
                 }
 
-                return UserRepository;
+                return userRepository;
             }
         }
         public void Save()
