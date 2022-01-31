@@ -7,97 +7,29 @@ using database.entities;
 
 namespace database.repositories
 {
-    public class UnitOfWork : IDisposable
+    public class UnitOfWork : IUnitOfWork, IDisposable
     {
-        private AppDbContext context = new AppDbContext();
-        private IRepository<Access> accessRepository;
-        private IRepository<Admin> adminRepository;
-        private IRepository<Car> carRepository;
-        private IRepository<Company> companyRepository;
-        private IRepository<Manager> managerRepository;
-        private IRepository<User> userRepository;
+        private AppDbContext _context;
+        public IRepository<Access> AccessRepository { get; set; }
+        public IRepository<Admin> AdminRepository { get; set; }
+        public IRepository<Car> CarRepository { get; set; }
+        public IRepository<Company> CompanyRepository { get; set; }
+        public IRepository<Manager> ManagerRepository { get; set; }
+        public IRepository<User> UserRepository { get; set; }
 
-        public IRepository<Access> AccessRepository
+        public UnitOfWork(AppDbContext context)
         {
-            get
-            {
+            AccessRepository = new AccessRepository(_context);
+            AdminRepository = new AdminRepository(_context);
+            CarRepository = new CarRepository(_context);
+            CompanyRepository = new CompanyRepository(_context);
+            ManagerRepository = new ManagerRepository(_context);
+            UserRepository = new UserRepository(_context);
 
-                if (this.accessRepository == null)
-                {
-                    this.accessRepository = new AccessRepository(context);
-                }
-
-                return accessRepository;
-            }
-        }
-        public IRepository<Admin> AdminRepository
-        {
-            get
-            {
-
-                if (this.adminRepository == null)
-                {
-                    this.adminRepository = new AdminRepository(context);
-                }
-
-                return adminRepository;
-            }
-        }
-        public IRepository<Car> CarRepository
-        {
-            get
-            {
-
-                if (this.carRepository == null)
-                {
-                    this.carRepository = new CarRepository(context);
-                }
-
-                return carRepository;
-            }
-        }
-        public IRepository<Company> CompanyRepository
-        {
-            get
-            {
-
-                if (this.companyRepository == null)
-                {
-                    this.companyRepository = new CompanyRepository(context);
-                }
-
-                return companyRepository;
-            }
-        }
-        public IRepository<Manager> ManagerRepository
-        {
-            get
-            {
-
-                if (this.managerRepository == null)
-                {
-                    this.managerRepository = new ManagerRepository(context);
-                }
-
-                return managerRepository;
-            }
-        }
-        public IRepository<User> UserRepository
-        {
-            get
-            {
-
-                if (this.userRepository == null)
-                {
-                    this.userRepository = new UserRepository(context);
-                }
-
-                return userRepository;
-            }
         }
         public void Save()
         {
-            context.SaveChanges();
+            _context.SaveChanges();
         }
 
         private bool disposed = false;
@@ -108,7 +40,7 @@ namespace database.repositories
             {
                 if (disposing)
                 {
-                    context.Dispose();
+                    _context.Dispose();
                 }
             }
             this.disposed = true;
