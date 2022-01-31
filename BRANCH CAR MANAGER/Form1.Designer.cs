@@ -33,12 +33,20 @@ namespace BRANCH_CAR_MANAGER
             this.panelMenu = new System.Windows.Forms.Panel();
             this.panelLogo = new System.Windows.Forms.Panel();
             this.buttonCars = new System.Windows.Forms.Button();
+            this.buttonUsers = new System.Windows.Forms.Button();
+            this.buttonManagers = new System.Windows.Forms.Button();
+            this.buttonCompanies = new System.Windows.Forms.Button();
+            this.buttonAccesses = new System.Windows.Forms.Button();
             this.panelMenu.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelMenu
             // 
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.panelMenu.Controls.Add(this.buttonAccesses);
+            this.panelMenu.Controls.Add(this.buttonCompanies);
+            this.panelMenu.Controls.Add(this.buttonManagers);
+            this.panelMenu.Controls.Add(this.buttonUsers);
             this.panelMenu.Controls.Add(this.buttonCars);
             this.panelMenu.Controls.Add(this.panelLogo);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
@@ -66,12 +74,75 @@ namespace BRANCH_CAR_MANAGER
             this.buttonCars.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonCars.Location = new System.Drawing.Point(0, 80);
             this.buttonCars.Name = "buttonCars";
+            this.buttonCars.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
             this.buttonCars.Size = new System.Drawing.Size(220, 60);
             this.buttonCars.TabIndex = 1;
             this.buttonCars.Text = "Cars";
-            this.buttonCars.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonCars.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.buttonCars.UseVisualStyleBackColor = true;
+            // 
+            // buttonUsers
+            // 
+            this.buttonUsers.Dock = System.Windows.Forms.DockStyle.Top;
+            this.buttonUsers.FlatAppearance.BorderSize = 0;
+            this.buttonUsers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonUsers.ForeColor = System.Drawing.Color.Gainsboro;
+            this.buttonUsers.Image = ((System.Drawing.Image)(resources.GetObject("buttonUsers.Image")));
+            this.buttonUsers.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonUsers.Location = new System.Drawing.Point(0, 140);
+            this.buttonUsers.Name = "buttonUsers";
+            this.buttonUsers.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.buttonUsers.Size = new System.Drawing.Size(220, 60);
+            this.buttonUsers.TabIndex = 2;
+            this.buttonUsers.Text = "Users";
+            this.buttonUsers.UseVisualStyleBackColor = true;
+            // 
+            // buttonManagers
+            // 
+            this.buttonManagers.Dock = System.Windows.Forms.DockStyle.Top;
+            this.buttonManagers.FlatAppearance.BorderSize = 0;
+            this.buttonManagers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonManagers.ForeColor = System.Drawing.Color.Gainsboro;
+            this.buttonManagers.Image = ((System.Drawing.Image)(resources.GetObject("buttonManagers.Image")));
+            this.buttonManagers.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonManagers.Location = new System.Drawing.Point(0, 200);
+            this.buttonManagers.Name = "buttonManagers";
+            this.buttonManagers.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.buttonManagers.Size = new System.Drawing.Size(220, 60);
+            this.buttonManagers.TabIndex = 3;
+            this.buttonManagers.Text = "Managers";
+            this.buttonManagers.UseVisualStyleBackColor = true;
+            // 
+            // buttonCompanies
+            // 
+            this.buttonCompanies.Dock = System.Windows.Forms.DockStyle.Top;
+            this.buttonCompanies.FlatAppearance.BorderSize = 0;
+            this.buttonCompanies.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonCompanies.ForeColor = System.Drawing.Color.Gainsboro;
+            this.buttonCompanies.Image = ((System.Drawing.Image)(resources.GetObject("buttonCompanies.Image")));
+            this.buttonCompanies.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonCompanies.Location = new System.Drawing.Point(0, 260);
+            this.buttonCompanies.Name = "buttonCompanies";
+            this.buttonCompanies.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.buttonCompanies.Size = new System.Drawing.Size(220, 60);
+            this.buttonCompanies.TabIndex = 4;
+            this.buttonCompanies.Text = "Companies";
+            this.buttonCompanies.UseVisualStyleBackColor = true;
+            // 
+            // buttonAccesses
+            // 
+            this.buttonAccesses.Dock = System.Windows.Forms.DockStyle.Top;
+            this.buttonAccesses.FlatAppearance.BorderSize = 0;
+            this.buttonAccesses.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonAccesses.ForeColor = System.Drawing.Color.Gainsboro;
+            this.buttonAccesses.Image = ((System.Drawing.Image)(resources.GetObject("buttonAccesses.Image")));
+            this.buttonAccesses.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonAccesses.Location = new System.Drawing.Point(0, 320);
+            this.buttonAccesses.Name = "buttonAccesses";
+            this.buttonAccesses.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.buttonAccesses.Size = new System.Drawing.Size(220, 60);
+            this.buttonAccesses.TabIndex = 5;
+            this.buttonAccesses.Text = "Accesses";
+            this.buttonAccesses.UseVisualStyleBackColor = true;
             // 
             // BRANCH
             // 
@@ -93,6 +164,10 @@ namespace BRANCH_CAR_MANAGER
         private System.Windows.Forms.Panel panelMenu;
         private System.Windows.Forms.Panel panelLogo;
         private System.Windows.Forms.Button buttonCars;
+        private System.Windows.Forms.Button buttonManagers;
+        private System.Windows.Forms.Button buttonUsers;
+        private System.Windows.Forms.Button buttonCompanies;
+        private System.Windows.Forms.Button buttonAccesses;
     }
 }
 
