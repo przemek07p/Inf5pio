@@ -31,12 +31,12 @@ namespace BRANCH_CAR_MANAGER
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BRANCH));
             this.panelMenu = new System.Windows.Forms.Panel();
-            this.panelLogo = new System.Windows.Forms.Panel();
-            this.buttonCars = new System.Windows.Forms.Button();
-            this.buttonUsers = new System.Windows.Forms.Button();
-            this.buttonManagers = new System.Windows.Forms.Button();
-            this.buttonCompanies = new System.Windows.Forms.Button();
             this.buttonAccesses = new System.Windows.Forms.Button();
+            this.buttonCompanies = new System.Windows.Forms.Button();
+            this.buttonManagers = new System.Windows.Forms.Button();
+            this.buttonUsers = new System.Windows.Forms.Button();
+            this.buttonCars = new System.Windows.Forms.Button();
+            this.panelLogo = new System.Windows.Forms.Panel();
             this.panelMenu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,62 +55,22 @@ namespace BRANCH_CAR_MANAGER
             this.panelMenu.Size = new System.Drawing.Size(220, 510);
             this.panelMenu.TabIndex = 0;
             // 
-            // panelLogo
+            // buttonAccesses
             // 
-            this.panelLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(58)))));
-            this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelLogo.Location = new System.Drawing.Point(0, 0);
-            this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(220, 80);
-            this.panelLogo.TabIndex = 0;
-            // 
-            // buttonCars
-            // 
-            this.buttonCars.Dock = System.Windows.Forms.DockStyle.Top;
-            this.buttonCars.FlatAppearance.BorderSize = 0;
-            this.buttonCars.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonCars.ForeColor = System.Drawing.Color.Gainsboro;
-            this.buttonCars.Image = ((System.Drawing.Image)(resources.GetObject("buttonCars.Image")));
-            this.buttonCars.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonCars.Location = new System.Drawing.Point(0, 80);
-            this.buttonCars.Name = "buttonCars";
-            this.buttonCars.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.buttonCars.Size = new System.Drawing.Size(220, 60);
-            this.buttonCars.TabIndex = 1;
-            this.buttonCars.Text = "Cars";
-            this.buttonCars.UseVisualStyleBackColor = true;
-            // 
-            // buttonUsers
-            // 
-            this.buttonUsers.Dock = System.Windows.Forms.DockStyle.Top;
-            this.buttonUsers.FlatAppearance.BorderSize = 0;
-            this.buttonUsers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonUsers.ForeColor = System.Drawing.Color.Gainsboro;
-            this.buttonUsers.Image = ((System.Drawing.Image)(resources.GetObject("buttonUsers.Image")));
-            this.buttonUsers.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonUsers.Location = new System.Drawing.Point(0, 140);
-            this.buttonUsers.Name = "buttonUsers";
-            this.buttonUsers.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.buttonUsers.Size = new System.Drawing.Size(220, 60);
-            this.buttonUsers.TabIndex = 2;
-            this.buttonUsers.Text = "Users";
-            this.buttonUsers.UseVisualStyleBackColor = true;
-            // 
-            // buttonManagers
-            // 
-            this.buttonManagers.Dock = System.Windows.Forms.DockStyle.Top;
-            this.buttonManagers.FlatAppearance.BorderSize = 0;
-            this.buttonManagers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonManagers.ForeColor = System.Drawing.Color.Gainsboro;
-            this.buttonManagers.Image = ((System.Drawing.Image)(resources.GetObject("buttonManagers.Image")));
-            this.buttonManagers.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonManagers.Location = new System.Drawing.Point(0, 200);
-            this.buttonManagers.Name = "buttonManagers";
-            this.buttonManagers.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.buttonManagers.Size = new System.Drawing.Size(220, 60);
-            this.buttonManagers.TabIndex = 3;
-            this.buttonManagers.Text = "Managers";
-            this.buttonManagers.UseVisualStyleBackColor = true;
+            this.buttonAccesses.Dock = System.Windows.Forms.DockStyle.Top;
+            this.buttonAccesses.FlatAppearance.BorderSize = 0;
+            this.buttonAccesses.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonAccesses.ForeColor = System.Drawing.Color.Gainsboro;
+            this.buttonAccesses.Image = ((System.Drawing.Image)(resources.GetObject("buttonAccesses.Image")));
+            this.buttonAccesses.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonAccesses.Location = new System.Drawing.Point(0, 320);
+            this.buttonAccesses.Name = "buttonAccesses";
+            this.buttonAccesses.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.buttonAccesses.Size = new System.Drawing.Size(220, 60);
+            this.buttonAccesses.TabIndex = 5;
+            this.buttonAccesses.Text = "Accesses";
+            this.buttonAccesses.UseVisualStyleBackColor = true;
+            this.buttonAccesses.Click += new System.EventHandler(this.buttonAccesses_Click);
             // 
             // buttonCompanies
             // 
@@ -127,22 +87,67 @@ namespace BRANCH_CAR_MANAGER
             this.buttonCompanies.TabIndex = 4;
             this.buttonCompanies.Text = "Companies";
             this.buttonCompanies.UseVisualStyleBackColor = true;
+            this.buttonCompanies.Click += new System.EventHandler(this.buttonCompanies_Click);
             // 
-            // buttonAccesses
+            // buttonManagers
             // 
-            this.buttonAccesses.Dock = System.Windows.Forms.DockStyle.Top;
-            this.buttonAccesses.FlatAppearance.BorderSize = 0;
-            this.buttonAccesses.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonAccesses.ForeColor = System.Drawing.Color.Gainsboro;
-            this.buttonAccesses.Image = ((System.Drawing.Image)(resources.GetObject("buttonAccesses.Image")));
-            this.buttonAccesses.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonAccesses.Location = new System.Drawing.Point(0, 320);
-            this.buttonAccesses.Name = "buttonAccesses";
-            this.buttonAccesses.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.buttonAccesses.Size = new System.Drawing.Size(220, 60);
-            this.buttonAccesses.TabIndex = 5;
-            this.buttonAccesses.Text = "Accesses";
-            this.buttonAccesses.UseVisualStyleBackColor = true;
+            this.buttonManagers.Dock = System.Windows.Forms.DockStyle.Top;
+            this.buttonManagers.FlatAppearance.BorderSize = 0;
+            this.buttonManagers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonManagers.ForeColor = System.Drawing.Color.Gainsboro;
+            this.buttonManagers.Image = ((System.Drawing.Image)(resources.GetObject("buttonManagers.Image")));
+            this.buttonManagers.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonManagers.Location = new System.Drawing.Point(0, 200);
+            this.buttonManagers.Name = "buttonManagers";
+            this.buttonManagers.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.buttonManagers.Size = new System.Drawing.Size(220, 60);
+            this.buttonManagers.TabIndex = 3;
+            this.buttonManagers.Text = "Managers";
+            this.buttonManagers.UseVisualStyleBackColor = true;
+            this.buttonManagers.Click += new System.EventHandler(this.buttonManagers_Click);
+            // 
+            // buttonUsers
+            // 
+            this.buttonUsers.Dock = System.Windows.Forms.DockStyle.Top;
+            this.buttonUsers.FlatAppearance.BorderSize = 0;
+            this.buttonUsers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonUsers.ForeColor = System.Drawing.Color.Gainsboro;
+            this.buttonUsers.Image = ((System.Drawing.Image)(resources.GetObject("buttonUsers.Image")));
+            this.buttonUsers.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonUsers.Location = new System.Drawing.Point(0, 140);
+            this.buttonUsers.Name = "buttonUsers";
+            this.buttonUsers.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.buttonUsers.Size = new System.Drawing.Size(220, 60);
+            this.buttonUsers.TabIndex = 2;
+            this.buttonUsers.Text = "Users";
+            this.buttonUsers.UseVisualStyleBackColor = true;
+            this.buttonUsers.Click += new System.EventHandler(this.buttonUsers_Click);
+            // 
+            // buttonCars
+            // 
+            this.buttonCars.Dock = System.Windows.Forms.DockStyle.Top;
+            this.buttonCars.FlatAppearance.BorderSize = 0;
+            this.buttonCars.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonCars.ForeColor = System.Drawing.Color.Gainsboro;
+            this.buttonCars.Image = ((System.Drawing.Image)(resources.GetObject("buttonCars.Image")));
+            this.buttonCars.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonCars.Location = new System.Drawing.Point(0, 80);
+            this.buttonCars.Name = "buttonCars";
+            this.buttonCars.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.buttonCars.Size = new System.Drawing.Size(220, 60);
+            this.buttonCars.TabIndex = 1;
+            this.buttonCars.Text = "Cars";
+            this.buttonCars.UseVisualStyleBackColor = true;
+            this.buttonCars.Click += new System.EventHandler(this.buttonCars_Click);
+            // 
+            // panelLogo
+            // 
+            this.panelLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(58)))));
+            this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelLogo.Location = new System.Drawing.Point(0, 0);
+            this.panelLogo.Name = "panelLogo";
+            this.panelLogo.Size = new System.Drawing.Size(220, 80);
+            this.panelLogo.TabIndex = 0;
             // 
             // BRANCH
             // 
