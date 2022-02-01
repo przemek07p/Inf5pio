@@ -61,7 +61,7 @@
   <data name="buttonAccesses.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAH
-        qgAAB6oBxuJYRAAAAiFJREFUaEPt2j9IVWEYx/GblWZDQSKWFVIQ5BYILu6JYzYUFm1Ci5NOQYRLS2Mi
+        qQAAB6kBa1t5KQAAAiFJREFUaEPt2j9IVWEYx/GblWZDQSKWFVIQ5BYILu6JYzYUFm1Ci5NOQYRLS2Mi
         FCoqlboItTk2RARNLW4SZEM5KBH5p7/fBwwuD4+ec+85x+e88P7gg8t573l/XN9zz7nvrRSckxjADD5g
         Az93/y5jHoNoRalzCo/wDX9T2MYkOlC6XMNXWBNP8h13cQjukUncxx9Yk63FUxyBa+7Bmly9JuD2TrXj
         F6yJyfpYxC1cglwoLuA2nmMT1jgxBJdcgTWhN7iM/XIeS7DG/8BFHHia8QnVk1nAUaTJYYyhevx/c3BJ
@@ -76,7 +76,7 @@
   <data name="buttonCompanies.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAB4AAAA0CAYAAACdB4jyAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAADl
-        WgAA5VoB+ZUTEAAABR9JREFUWEe1mVloJEUcxkd013gfaEJO7wMF73g9iOKBIb7pu+LuuqiouUOMIui7
+        WQAA5VkBVCwyfQAABR9JREFUWEe1mVloJEUcxkd013gfaEJO7wMF73g9iOKBIb7pu+LuuqiouUOMIui7
         x5sgqKvoQ9jDa1Vyi4oIeRKfRHcXffTEB8HVTPn9KvUfaqq7p+1k9oNfprrq399X3dPTPVOpbVK3ivnA
         LXQca90kPhVuYGDA9fX1Odqhj7G260bxsXD9/f1udnbWLS0tucXFRTc9Pe16e3ttAgdD7ZZ1g/hIePOZ
         mRkfuLKy0gQTmJqact3d3YTXwz7sW1nXiw9Evaenxx8V5mlgysLCgpuYmIgngMd1olTXivdEnZ0nJyf/
@@ -120,7 +120,7 @@
   <data name="buttonUsers.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABQAAAA0CAYAAACKJRg7AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DwAACw8BkvkDpQAAAyVJREFUWEel2FnITkEcx/EHobgQFwrZLoRkiVDkAhciJEskSrK8CTdCWYsSiuzJ
+        DgAACw4BQL7hQQAAAyVJREFUWEel2FnITkEcx/EHobgQFwrZLoRkiVDkAhciJEskSrK8CTdCWYsSiuzJ
         ciFlF1kvJLd2yQ1KlMiaJdm37++851/zzDMz5+l5f/XpnTnnzDzPec6cmektVZFV+ICvuIJOqDmd8Qf/
         HOtQc3rB7Uy2oeb0g9/hetScMfA73I2a0wxnYZ39Rh80KPpG1uF9HWhoDsI6fIZGqCntsB2/YB3KJQxD
         1R0PxTF8h9uR7w7GI5lRCDVOmY9oNGhDjVKOIpoTCDVKuYxo9iHUKOUwotmFUKOUPYjmHEKNUg4hmjPQ

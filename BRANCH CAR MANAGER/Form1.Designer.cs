@@ -37,9 +37,10 @@ namespace BRANCH_CAR_MANAGER
             this.buttonUsers = new System.Windows.Forms.Button();
             this.buttonCars = new System.Windows.Forms.Button();
             this.panelLogo = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.panelTitleBar = new System.Windows.Forms.Panel();
             this.labelTitle = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.panelMainPanel = new System.Windows.Forms.Panel();
             this.panelMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
             this.panelTitleBar.SuspendLayout();
@@ -155,6 +156,17 @@ namespace BRANCH_CAR_MANAGER
             this.panelLogo.Size = new System.Drawing.Size(220, 80);
             this.panelLogo.TabIndex = 0;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.LightGray;
+            this.label1.Location = new System.Drawing.Point(12, 43);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(188, 20);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Branch Car Manager";
+            // 
             // panelTitleBar
             // 
             this.panelTitleBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(136)))));
@@ -177,22 +189,20 @@ namespace BRANCH_CAR_MANAGER
             this.labelTitle.TabIndex = 0;
             this.labelTitle.Text = "MAIN";
             // 
-            // label1
+            // panelMainPanel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.LightGray;
-            this.label1.Location = new System.Drawing.Point(12, 43);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(188, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Branch Car Manager";
+            this.panelMainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelMainPanel.Location = new System.Drawing.Point(220, 80);
+            this.panelMainPanel.Name = "panelMainPanel";
+            this.panelMainPanel.Size = new System.Drawing.Size(580, 430);
+            this.panelMainPanel.TabIndex = 2;
             // 
             // BRANCH
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 510);
+            this.Controls.Add(this.panelMainPanel);
             this.Controls.Add(this.panelTitleBar);
             this.Controls.Add(this.panelMenu);
             this.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -220,6 +230,7 @@ namespace BRANCH_CAR_MANAGER
         private System.Windows.Forms.Panel panelTitleBar;
         private System.Windows.Forms.Label labelTitle;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panelMainPanel;
     }
 }
 

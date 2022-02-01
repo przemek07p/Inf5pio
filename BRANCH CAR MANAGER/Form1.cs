@@ -69,31 +69,46 @@ namespace BRANCH_CAR_MANAGER
                 }
             }
         }
-        
+
+        private void OpenChildForm(Form childForm, object btnSender)
+        {
+            if (activeForm != null)
+                activeForm.Close();
+            ActivateButton(btnSender);
+            activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            this.panelMainPanel.Controls.Add(childForm);
+            this.panelMainPanel.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+            labelTitle.Text = childForm.Text;
+        }
 
         private void buttonCars_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.FormCars(), sender);
         }
 
         private void buttonUsers_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.FormUsers(), sender);
         }
 
         private void buttonManagers_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.FormManagers(), sender);
         }
 
         private void buttonCompanies_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.FormCompanies(), sender);
         }
 
         private void buttonAccesses_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.FormAccesses(), sender);
         }
     }
 }
