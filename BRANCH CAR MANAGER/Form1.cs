@@ -49,11 +49,11 @@ namespace BRANCH_CAR_MANAGER
                     DisableButton();
                     Color color = SelectThemeColor();
                     currentButton = (Button)btnSender;
-                    currentButton.BackColor = color;
+                    currentButton.BackColor = Theme.PrimaryColor;
                     currentButton.ForeColor = Color.White;
                     currentButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-                    panelTitleBar.BackColor = color;
-                    panelLogo.BackColor = Theme.ChangeColorBrightness(color, -0.3);
+                    panelTitleBar.BackColor = Theme.PrimaryColor;
+                    panelLogo.BackColor = Theme.ChangeColorBrightness(Theme.PrimaryColor, -0.3);
                     Theme.PrimaryColor = color;
                     Theme.SecondaryColor = Theme.ChangeColorBrightness(color, -0.3);
                 }
