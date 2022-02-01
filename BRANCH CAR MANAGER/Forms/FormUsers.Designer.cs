@@ -179,7 +179,7 @@ namespace BRANCH_CAR_MANAGER.Forms
             this.dataGridView1.Size = new System.Drawing.Size(321, 286);
             this.dataGridView1.TabIndex = 13;
             // 
-            // FormCars
+            // FormUsers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -198,8 +198,8 @@ namespace BRANCH_CAR_MANAGER.Forms
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Name = "FormCars";
-            this.Text = "FormCars";
+            this.Name = "FormUsers";
+            this.Text = "USERS";
             
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

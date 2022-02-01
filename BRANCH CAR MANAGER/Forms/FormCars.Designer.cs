@@ -199,7 +199,7 @@ namespace BRANCH_CAR_MANAGER.Forms
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "FormCars";
-            this.Text = "FormCars";
+            this.Text = "CARS";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
