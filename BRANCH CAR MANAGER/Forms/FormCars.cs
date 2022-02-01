@@ -15,9 +15,25 @@ namespace BRANCH_CAR_MANAGER.Forms
         public FormCars()
         {
             InitializeComponent();
+            LoadTheme();
         }
 
-        
-        
+        private void LoadTheme()
+        {
+            foreach (Control btns in this.Controls)
+            {
+                if (btns.GetType() == typeof(Button))
+                {
+                    Button btn = (Button)btns;
+                    btn.BackColor = Theme.PrimaryColor;
+                    btn.ForeColor = Color.White;
+                    btn.FlatAppearance.BorderColor = Theme.SecondaryColor;
+                }
+            }
+            label4.ForeColor = Theme.SecondaryColor;
+            label5.ForeColor = Theme.PrimaryColor;
+        }
+
+
     }
 }
