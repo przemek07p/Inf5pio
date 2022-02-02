@@ -125,7 +125,7 @@ namespace BRANCH_CAR_MANAGER
         private void Reset()
         {
             DisableButton();
-            panelTitleBar.Text = "MAIN";
+            labelTitle.Text = "MAIN";
             panelTitleBar.BackColor = Color.FromArgb(0, 150, 136);
             panelLogo.BackColor = Color.FromArgb(39, 39, 58);
             currentButton = null;
