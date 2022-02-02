@@ -21,6 +21,7 @@ namespace BRANCH_CAR_MANAGER
         {
             InitializeComponent();
             random = new Random();
+            buttonBack.Visible = false;
         }
 
         private void BRANCH_CAR_MANAGER_Load(object sender, EventArgs e)
@@ -56,6 +57,7 @@ namespace BRANCH_CAR_MANAGER
                     panelLogo.BackColor = Theme.ChangeColorBrightness(Theme.PrimaryColor, -0.3);
                     Theme.PrimaryColor = color;
                     Theme.SecondaryColor = Theme.ChangeColorBrightness(color, -0.3);
+                    buttonBack.Visible = true;
                 }
             }
         }
@@ -111,6 +113,23 @@ namespace BRANCH_CAR_MANAGER
         private void buttonAccesses_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Forms.FormAccesses(), sender);
+        }
+
+        private void buttonBack_Click(object sender, EventArgs e)
+        {
+            if (activeForm != null)
+                activeForm.Close();
+            Reset();
+        }
+
+        private void Reset()
+        {
+            DisableButton();
+            panelTitleBar.Text = "HOME";
+            panelTitleBar.BackColor = Color.FromArgb(0, 150, 136);
+            panelLogo.BackColor = Color.FromArgb(39, 39, 58);
+            currentButton = null;
+            buttonBack.Visible = false;
         }
     }
 }
