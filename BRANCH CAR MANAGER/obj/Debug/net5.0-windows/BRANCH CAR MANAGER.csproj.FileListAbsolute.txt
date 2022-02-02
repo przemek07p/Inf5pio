@@ -1,0 +1,31 @@
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\BRANCH CAR MANAGER\bin\Debug\net5.0-windows\BRANCH CAR MANAGER.exe
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\BRANCH CAR MANAGER\bin\Debug\net5.0-windows\BRANCH CAR MANAGER.deps.json
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\BRANCH CAR MANAGER\bin\Debug\net5.0-windows\BRANCH CAR MANAGER.runtimeconfig.json
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\BRANCH CAR MANAGER\bin\Debug\net5.0-windows\BRANCH CAR MANAGER.runtimeconfig.dev.json
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\BRANCH CAR MANAGER\bin\Debug\net5.0-windows\BRANCH CAR MANAGER.dll
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\BRANCH CAR MANAGER\bin\Debug\net5.0-windows\ref\BRANCH CAR MANAGER.dll
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\BRANCH CAR MANAGER\bin\Debug\net5.0-windows\BRANCH CAR MANAGER.pdb
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\BRANCH CAR MANAGER\obj\Debug\net5.0-windows\BRANCH CAR MANAGER.csproj.AssemblyReference.cache
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\BRANCH CAR MANAGER\obj\Debug\net5.0-windows\BRANCH_CAR_MANAGER.BRANCH.resources
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\BRANCH CAR MANAGER\obj\Debug\net5.0-windows\BRANCH CAR MANAGER.csproj.GenerateResource.cache
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\BRANCH CAR MANAGER\obj\Debug\net5.0-windows\BRANCH CAR MANAGER.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\BRANCH CAR MANAGER\obj\Debug\net5.0-windows\BRANCH CAR MANAGER.AssemblyInfoInputs.cache
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\BRANCH CAR MANAGER\obj\Debug\net5.0-windows\BRANCH CAR MANAGER.AssemblyInfo.cs
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\BRANCH CAR MANAGER\obj\Debug\net5.0-windows\BRANCH CAR MANAGER.csproj.CoreCompileInputs.cache
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\BRANCH CAR MANAGER\obj\Debug\net5.0-windows\BRANCH CAR MANAGER.dll
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\BRANCH CAR MANAGER\obj\Debug\net5.0-windows\ref\BRANCH CAR MANAGER.dll
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\BRANCH CAR MANAGER\obj\Debug\net5.0-windows\BRANCH CAR MANAGER.pdb
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\BRANCH CAR MANAGER\obj\Debug\net5.0-windows\BRANCH CAR MANAGER.genruntimeconfig.cache
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\BRANCH CAR MANAGER\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\BRANCH CAR MANAGER\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\BRANCH CAR MANAGER\bin\Debug\net5.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\BRANCH CAR MANAGER\bin\Debug\net5.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\BRANCH CAR MANAGER\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\BRANCH CAR MANAGER\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\BRANCH CAR MANAGER\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\BRANCH CAR MANAGER\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\BRANCH CAR MANAGER\bin\Debug\net5.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\BRANCH CAR MANAGER\bin\Debug\net5.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\BRANCH CAR MANAGER\bin\Debug\net5.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\BRANCH CAR MANAGER\obj\Debug\net5.0-windows\BRANCH CAR MANAGER.csproj.CopyComplete
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\BRANCH CAR MANAGER\obj\Debug\net5.0-windows\BRANCH_CAR_MANAGER.Properties.Resources.resources

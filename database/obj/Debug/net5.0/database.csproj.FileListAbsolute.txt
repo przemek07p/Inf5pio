@@ -1,0 +1,15 @@
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\database\bin\Debug\net5.0\database.deps.json
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\database\bin\Debug\net5.0\database.runtimeconfig.json
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\database\bin\Debug\net5.0\database.runtimeconfig.dev.json
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\database\bin\Debug\net5.0\database.dll
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\database\bin\Debug\net5.0\ref\database.dll
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\database\bin\Debug\net5.0\database.pdb
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\database\obj\Debug\net5.0\database.csproj.AssemblyReference.cache
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\database\obj\Debug\net5.0\database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\database\obj\Debug\net5.0\database.AssemblyInfoInputs.cache
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\database\obj\Debug\net5.0\database.AssemblyInfo.cs
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\database\obj\Debug\net5.0\database.csproj.CoreCompileInputs.cache
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\database\obj\Debug\net5.0\database.dll
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\database\obj\Debug\net5.0\ref\database.dll
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\database\obj\Debug\net5.0\database.pdb
+C:\Users\Przemek\source\repos\przemek07p\Inf5pio\database\obj\Debug\net5.0\database.genruntimeconfig.cache
