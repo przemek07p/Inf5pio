@@ -8,12 +8,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
+
 namespace BRANCH_CAR_MANAGER.Forms
 {
     public partial class FormCars : Form
     {
+       
+
         public FormCars()
         {
+           
             InitializeComponent();
             LoadTheme();
         }
@@ -34,6 +39,15 @@ namespace BRANCH_CAR_MANAGER.Forms
             label5.ForeColor = Theme.PrimaryColor;
         }
 
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
+        }
+
+        private void Wyswietl_Click(object sender, EventArgs e)
+        {
+            PobierzDane();
+        }
+       
     }
 }
