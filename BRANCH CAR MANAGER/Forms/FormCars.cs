@@ -1,4 +1,6 @@
-﻿using System;
+﻿using database.entities;
+using database.repositories;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,7 +16,7 @@ namespace BRANCH_CAR_MANAGER.Forms
 {
     public partial class FormCars : Form
     {
-       
+        readonly IUnitOfWork _unitOfWork;
 
         public FormCars()
         {
@@ -23,6 +25,7 @@ namespace BRANCH_CAR_MANAGER.Forms
             LoadTheme();
         }
 
+       
         private void LoadTheme()
         {
             foreach (Control btns in this.Controls)
@@ -41,13 +44,22 @@ namespace BRANCH_CAR_MANAGER.Forms
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            Wyswietl_Click();
+        }
 
+        private void Wyswietl_Click()
+        {
+            throw new NotImplementedException();
         }
 
         private void Wyswietl_Click(object sender, EventArgs e)
         {
             PobierzDane();
         }
-       
+       public void PobierzDane()
+        {
+            Car item = _unitOfWork.CarRepository.GetById(1);
+            
+        }
     }
 }
